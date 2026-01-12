@@ -1,0 +1,157 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+body {
+    background: #fff5e6;
+}
+
+/* NAVBAR */
+nav {
+    background: #4e2a1e;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 30px;
+    align-items: center;
+}
+
+.logo {
+    font-size: 1.7rem;
+    font-weight: 700;
+
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 25px;
+}
+
+.nav-links a {
+    color: white;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.nav-links a:hover,
+.active {
+    color: #f5d393;
+}
+
+/* HERO */
+.hero {
+    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),
+    url('images/background\ image.jpg');
+    height: 350px;
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    color:papayawhip;
+    padding-top: 100px;
+}
+
+.hero h1 {
+    font-size: 2.5rem;
+}
+
+.btn {
+    margin-top: 15px;
+    padding: 10px 20px;
+    background: #d9a066;
+    color: white;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+/* POPULAR CAKES */
+.popular {
+    text-align: center;
+    padding: 40px 20px;
+    color: black;
+    
+}
+.t_popular{
+    color:black;
+    text-decoration: underline;
+}
+.cake-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 40px;
+    margin-top: 30px;
+}
+
+.cake-card {
+    background:whitesmoke;
+    border-radius: 12px;
+    padding: 15px;
+    box-shadow: 0 4px 12px #0002;
+}
+
+.cake-card img {
+    width: 100%;
+    border-radius: 10px;
+    height: 250px;
+    object-fit: cover;
+}
+
+.price {
+    color: #4e2a1e;
+    font-weight: bold;
+}
+
+/* ABOUT */
+.about {
+    background: #fff;
+    padding: 40px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+/* ORDER FORM */
+.order-section {
+    width: 80%;
+    margin: auto;
+    padding: 30px;
+}
+
+form {
+    background: white;
+    padding: 25px;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px #0002;
+}
+
+form input, select, textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 8px 0;
+}
+
+form button {
+    padding: 10px;
+    width: 100%;
+    background: #4e2a1e;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+
+/* CONTACT */
+.contact-section {
+    text-align: center;
+    padding: 40px;
+}
+
+/* FOOTER */
+footer {
+    text-align: center;
+    background: #4e2a1e;
+    color: white;
+    padding: 15px;
+    margin-top: 20px;
+}
