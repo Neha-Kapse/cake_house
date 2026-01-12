@@ -5,6 +5,19 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Cake House - Contact</title>
     <link rel="stylesheet" href="style.css">
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            padding: 20px;
+            background-color: #fff7f9;  
+        }
+        form{
+            max-width: 400px;
+            margin: auto;
+            border: 1px solid #ccc;
+            padding: 20px;
+        }
+    </style>
 </head>
 <body>
 
@@ -25,6 +38,13 @@
     <p><strong>✉️ Email :</strong> cakehouse@gmail.com</p>
 </section>
 
+<form action="#" method="post">
+    <input type="text" name="name" placeholder="Your Name" required>
+    <input type="email" name="email" placeholder="Your Email" required>
+    <input type="text" name="phone" placeholder="Phone Number" required>
+    <textarea name="message" rows="4" placeholder="Your Message / Cake Order" required></textarea>
+    <button type="submit">Send Message</button>
+</form>
 <footer>
     <p>© 2026 Cake House</p>
 </footer>
